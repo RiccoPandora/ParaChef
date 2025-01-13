@@ -1,10 +1,12 @@
 package com.example.parachef;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +20,12 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile);
+
+        SharedPreferences preferences = getSharedPreferences("login_prefs", MODE_PRIVATE);
+        TextView nama = (TextView)findViewById(R.id.namapengguna);
+        String namaprefs = preferences.getString("username",null);
+
+        nama.setText(namaprefs);
 
 
         Intent DasboardIntent = new Intent(Profile.this, Dashboard.class);

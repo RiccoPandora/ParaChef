@@ -104,7 +104,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="40 Menit"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_time"
                                 android:drawablePadding="4dp" />
@@ -114,7 +114,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="96 Kkal"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_kkal"
                                 android:drawablePadding="4dp"
@@ -180,7 +180,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="30 Menit"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_time"
                                 android:drawablePadding="4dp" />
@@ -190,7 +190,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="162 Kkal"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_kkal"
                                 android:drawablePadding="4dp"
@@ -256,7 +256,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="40 Menit"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_time"
                                 android:drawablePadding="4dp" />
@@ -266,7 +266,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="126 Kkal"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_kkal"
                                 android:drawablePadding="4dp"
@@ -332,7 +332,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="20 Menit"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_time"
                                 android:drawablePadding="4dp" />
@@ -342,7 +342,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="244 Kkal"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_kkal"
                                 android:drawablePadding="4dp"
@@ -408,7 +408,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="180 Menit"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_time"
                                 android:drawablePadding="4dp" />
@@ -418,7 +418,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppins"
                                 android:text="295 Kkal"
-                                android:textSize="14sp"
+                                android:textSize="12sp"
                                 android:textColor="#868686"
                                 android:drawableLeft="@drawable/ic_kkal"
                                 android:drawablePadding="4dp"
@@ -439,10 +439,10 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="@color/nav"
-        android:layout_marginTop="800dp">
+        android:layout_alignParentBottom="true">
 
         <ImageView
             android:id="@+id/navhome"
@@ -450,7 +450,7 @@
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:src="@drawable/navhome"
-            android:layout_marginStart="45dp"/>
+            android:layout_marginStart="20dp"/>
         <ImageView
             android:id="@+id/navfav"
             android:layout_width="40dp"
