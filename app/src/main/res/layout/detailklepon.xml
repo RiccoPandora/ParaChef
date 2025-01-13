@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dklepon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivFoodImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/klepon"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klepon"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kue dan Bolu"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Klepon adalah salah satu jajanan tradisional khas Indonesia yang berbentuk bulat kecil dengan warna hijau khas pandan. Camilan ini terbuat dari adonan tepung ketan yang diisi dengan gula merah cair, lalu direbus hingga matang. Setelah matang, klepon digulingkan ke dalam kelapa parut yang memberikan rasa gurih dan tekstur lembut."
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins"
+                android:lineSpacingExtra="4dp" />
+
+            <TextView
+                android:id="@+id/tvIngredientsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resep :"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/tvIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• 200 gram tepung ketan putih\n• 50 gram tepung beras\n• 150 ml air hangat\n• 1/2 sdt pasta pandan atau 6 lembar daun pandan\n• Sejumput garam\n• 150 gram gula merah\n• 150 gram kelapa parut"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvStepsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cara Masak :"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/tvSteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Campurkan tepung ketan, tepung beras, dan garam dalam mangkuk besar.
+                                \n2.Tambahkan air pandan sedikit demi sedikit sambil diuleni hingga adonan kalis dan bisa dipulung (tidak lengket di tangan).
+                                \n3.Ambil sedikit adonan (sekitar 1 sendok teh), pipihkan, lalu isi dengan gula merah iris.
+                                \n4.dan bulatkan adonan hingga gula merah tertutup rapat. Ulangi hingga semua adonan habis.
+                                \n5.Didihkan air dalam panci. Masukkan bulatan klepon ke dalam air mendidih.
+                                \n6.Klepon akan matang ketika mengapung ke permukaan. Angkat dan tiriskan.
+                                \n7.Kukus kelapa parut yang sudah dicampur dengan sejumput garam selama 10 menit agar kelapa tidak cepat basi."
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="120dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
